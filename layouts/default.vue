@@ -17,9 +17,6 @@
 <script>
   export default {
     middleware: 'auth',
-    async mounted(){
-      await this.$store.dispatch("fetchIssues")
-    },
     methods:{
       async logout(){
         await this.$auth.logout()
