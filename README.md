@@ -1,5 +1,11 @@
 # nuxt-vuex-state
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae3d5a67-37d6-4efb-a2f1-636fb559d80c/deploy-status)](https://app.netlify.com/sites/festive-dubinsky-309d1d/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/77ce91e7-46f6-4f34-b09b-f9869a0445fe/deploy-status)](https://app.netlify.com/sites/tender-panini-bbf6f6/deploys)
+
+
+
 > My premium Nuxt.js project
 
 ## Build Setup
