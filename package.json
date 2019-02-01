@@ -8,11 +8,16 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "docs:dev": "vuepress dev books",
+    "docs:build": "vuepress build books"
   },
   "dependencies": {
+    "@nuxtjs/auth": "^4.5.3",
+    "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4"
+    "nuxt": "^2.3.4",
+    "vuepress": "^1.0.0-alpha.35"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
