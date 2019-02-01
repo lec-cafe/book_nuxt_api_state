@@ -38,7 +38,7 @@ module.exports = {
             // '/3.クラス名の管理',
             // '/4.Meta要素とSEO',
         ],
-        repo: 'lec-cafe/book_laravel_api',
+        repo: 'lec-cafe/book_nuxt_api_state\n',
         repoLabel: 'Github',
         docsDir: 'books',
         editLinks: true,
