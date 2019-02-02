@@ -5,6 +5,10 @@ title: Vue.js/Nuxt.js における REST API の活用 - Vuex/SSR/認証維持
 
 ![](/images/leccafe.png)
 
+demo
+
+https://tender-panini-bbf6f6.netlify.com/
+
 ## Contents
 
 Nuxt.js を用いて SPA を構築する上での、REST APIの取り扱い方を紹介します。
