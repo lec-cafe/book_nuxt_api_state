@@ -52,7 +52,7 @@ Github から Issue の 一覧を取得する場合 `GET /repos/:owner/:repo/iss
 Issue 一覧画面にて、ページ読み込み時にIssue の一覧を取得する場合、
 以下のような形で mounted 内で APIの発行処理を記述します。
 
-```
+```js
 export default {
   data(){
     return {
@@ -76,7 +76,7 @@ export default {
 
 response のデータは `response.data` に格納されているため、以下のように記述するケースも多いでしょう。
 
-```
+```js
 export default {
   async mounted(){
     const url = "/repos/lec-cafe/book_nuxt_api_state/issues"

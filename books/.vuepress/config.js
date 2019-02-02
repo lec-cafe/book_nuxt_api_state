@@ -32,6 +32,7 @@ module.exports = {
             '/3.Vuexによるデータの管理/',
             '/4.Vuex Store の永続化/',
             '/5.認証/',
+            '/6.SSRの設定/',
           {
             title: '付録',
             collapsable: false,
