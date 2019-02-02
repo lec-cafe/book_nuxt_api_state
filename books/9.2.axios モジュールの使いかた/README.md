@@ -16,7 +16,7 @@ get 以外の post 等のリクエストを行う場合は、
 以下のような形で第二引数に Request Body を含む形のリクエスト形式となります。
 
 ```js
-const response = this.$axios.get(url, data, options)
+const response = this.$axios.post(url, data, options)
 ```
 
 get と post での 形式の違いを吸収するために URL や methods を options に埋め込んで、
