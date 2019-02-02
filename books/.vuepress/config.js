@@ -1,5 +1,5 @@
 module.exports = {
-    title: '実践 Laravel REST API 開発',
+    title: 'Nuxt.js における REST API の活用',
     description: 'HTML/CSS を使った Web 制作技術について、現場で使えるテクニックを紹介します。',
     head: [
         ['script', { src: "https://static.codepen.io/assets/embed/ei.js"}]
@@ -32,13 +32,19 @@ module.exports = {
             '/3.Vuexによるデータの管理/',
             '/4.Vuex Store の永続化/',
             '/5.認証/',
-            '/9.1.Promise と async await/',
-            '/9.2.axios モジュールの使いかた/',
+          {
+            title: '付録',
+            collapsable: false,
+            children: [
+              '/9.1.Promise と async await/',
+              '/9.2.axios モジュールの使いかた/',
+            ]
+          },
             // '/2.レスポンシブデザイン',
             // '/3.クラス名の管理',
             // '/4.Meta要素とSEO',
         ],
-        repo: 'lec-cafe/book_nuxt_api_state\n',
+        repo: 'lec-cafe/book_nuxt_api_state',
         repoLabel: 'Github',
         docsDir: 'books',
         editLinks: true,
