@@ -39,6 +39,7 @@ module.exports = {
             children: [
               '/9.1.Promise と async await/',
               '/9.2.axios モジュールの使いかた/',
+              '/9.3.Vuex のモジュール化/',
             ]
           },
             // '/2.レスポンシブデザイン',
