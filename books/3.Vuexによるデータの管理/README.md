@@ -155,7 +155,7 @@ data で定義していた `issues` は Vuex Store からの参照で computed �
 
 データの取得は、 `this.$store.dispatch("fetchIssues")` として action をvue コンポーネント内部でコールします。
 
-同様に mutations もまた `this.$store.commmit` を呼び出してコールすることができます。
+同様に mutations もまた `this.$store.commit` を呼び出してコールすることができます。
 
 Issue の個別のページ `pages/issue/_id/index.vue` では以下のようなコードになります。
 
